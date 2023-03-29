@@ -1,0 +1,21 @@
+POST  http://localhost:3000/payment/create HTTP/1.1
+content-type: application/json
+
+
+{
+    "name" : "payment11",
+    "success" : "true",
+    "money" : 4055,
+    "datePayment" : "2011-09-09"
+}
+
+
+###gte page
+GET   http://localhost:3000/1 HTTP/1.1
+content-type: application/json
+
+
+{
+
+
+}
